@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/htmlscharset=utfs-8" />
+      <title></title>
+      <link rel="stylesheet" href="res/bootstrap.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+       
+        
+        <div id="time"  class="badge badge-primary rounded my-2" style="position:relative;left:47%;">
+            
+        </div>
+        
+        <div class=" btn form-group col-md-6 btn-outline-danger my-4 mt-1 disabled">
+        <button onclick="play()" class="btn btn-outline-info btn-xs mx-2 p-0 w-30 h-5">p</button>
+        <button class="btn btn-outline-dark p-0" type="submit">f</button>
+        </div>
+        
+        <div id="Thefact_card"  class="col-sm-8   row-lg w-100  "><div id="timer" class="btn  btn-sm disabled p-0 ">
+            
+        </div></div>
+        <div  id="hometeam"   class="btn btn-primary mx-3 rounded" style="position:absolute;top:1%;"></div>
+           <div  id="awayteam" class="btn  badge-primary mx-3 pull-right rounded " style="position:absolute;top:1%;right:1%;"></div>
+              <div  id="homeTeamScore" class="btn  badge-primary btn-sm  rounded " style="position:absolute;top:1%;left:35%;">0</div>
+              <div  id="awayTeamScore" class="btn  badge-primary btn-sm  rounded " style="position:absolute;top:1%;left:55%;">0</div>
+       
+            <div class="form-group d-none">
+                <table class="table table-striped  table-condensed table-hover  text-center"  >
+                  <th colspan="3" class=" bg-dark text-warning ">FÄÇTS</th> 
+                  <tr class="text-danger">
+                      <td id="redcardsHome">0</td>
+                      <td class="text-center ">RedCards</td>
+                      <td id="redcardsAway">0</td>
+                  </tr> 
+                     <tr class="text-info">
+                      <td >0</td>
+                      <td class="text-center ">Possession</td>
+                      <td>0</td>
+                  </tr> 
+                  <tr class="text-success">
+                      <td >0</td>
+                      <td class="text-center ">Freekicks</td>
+                      <td>0</td>
+                  </tr> 
+                  <tr class="text-info">
+                      <td id="crossesHome">0</td>
+                      <td class="text-center ">Crosses</td>
+                      <td id="crossesAway">0</td>
+                  </tr>   
+                  <tr class="text-danger">
+                      <td id="penaltiesHome">0</td>
+                      <td class="text-center ">penalties</td>
+                      <td id="penaltiesAway">0</td>
+                  </tr> 
+                  
+                  <tr class="text-warning">
+                      <td >0</td>
+                      <td class="text-center ">YellowCards</td>
+                      <td>0</td>
+                  </tr> 
+                </table>
+            </div>
+       
+        <script src="soccer.js" type="text/javascript" charset="utf-8"></script>
+           
+           
+         
+        </script>
+    </body>
+</html>
