@@ -1,2 +1,0 @@
-# footballgame-inprogress
-Simulation game
